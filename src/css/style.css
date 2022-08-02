@@ -11,9 +11,30 @@
 
 body{
     font-family: 'Mali', cursive;
+    background-image: url(../image/fundo-site.png);background-repeat:no-repeat;
+    background-size: cover;
+
 
 }
 
+ul{
+    list-style: none;
+}
+ 
 h1{
-    color: red;
+    padding: 20px;
+}
+
+.cabecalho{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagem-header{
+    width: 30px;
+    height: 30px;
+    
 }
