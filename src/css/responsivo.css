@@ -1,7 +1,7 @@
 @media (max-width: 620px) {
     .pokemon-slider {
         padding: 0 15px;
-        gap: 10px;
+        gap: 5px;
     }
 
     .btn-seta {
@@ -22,12 +22,16 @@
     }
 
     .nome-card {
-        max-width: 50%;
+        max-width: 100%;
         font-size: 18px;
     }
 
     .nome-card > p {
         font-size: 14px;
+    }
+
+    .nome-card > h2 {
+        font-size: 30px;
     }
 }
 
