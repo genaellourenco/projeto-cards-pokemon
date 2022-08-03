@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cards Pokémon</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
     <link rel="shortcut icon" href="src/image/pokebola.png" type="image/x-icon">
 
     
@@ -13,57 +15,57 @@
 <body>
     <header class="cabecalho">
         <img class="imagem-header" src="src/image/pokebola.png" alt="Pokebola">
-        <h1>MapaDev Week</h1>
+        <h1 class="titulo">MapaDev Week</h1>
     </header>
-    <main>
-        <button>
-            <img class="img-btn-vol" src="src/image/seta.png" alt="seta voltar">
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar">
+            <img src="src/image/seta.png" alt="seta voltar">
         </button>
 
-        <ul>
-            <li>
-                <div>
+        <ul class="lista-cartao">
+            <li class="cartao-pokemon selecionado  fundo-1">
+                <div class="nome-card">
                     <h2>Pikachu</h2>
-                    <p>HP 300</p>
+                    <p>HP 400</p>
                 </div>
-                <div>
+                <div class="img-cartao">
                     <img class="img-pokeimon" src="src/image/pikachu.png" alt="Pikachu">
                 </div>
-                <div>
+                <div class="descricao-card">
                     <h2>Descrição</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat cumque nostrum rerum tempora neque harum, beatae enim sint! Ad, quia. Harum natus consequatur porro repellendus beatae assumenda magni voluptas aliquam?</p>
+                    <p>Os Pikachus são pequenos roedores de quarenta centímetros e de seis quilogramas, com um corpo redondo, pernas curtas e uma longa cauda, quando macho, a cauda tem um formato de um raio, mas se o Pikachu for fêmea sua cauda ganha um coração na ponta.</p>
                 </div>
             </li>
-            <li>
-                <div>
+            <li class="cartao-pokemon   fundo-2">
+                <div class="nome-card" >
                     <h2>Charizard</h2>
-                    <p>HP 200</p>
+                    <p>HP 800</p>
                 </div>
-                <div>
+                <div class="img-cartao">
                     <img class="img-pokeimon" src="src/image/charizard.png" alt="charizard">
                 </div>
-                <div>
+                <div class="descricao-card">
                     <h2>Descrição</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat cumque nostrum rerum tempora neque harum, beatae enim sint! Ad, quia. Harum natus consequatur porro repellendus beatae assumenda magni voluptas aliquam?</p>
+                    <p>Geralmente, um Charizard é competitivo. Ele adora a batalha e seu espírito competitivo também é notável, uma vez que nunca vai cuspir fogo em um inimigo mais fraco a menos que provocado ou ordenado. Quando fica muito irritado, as chamas em sua cauda se tornam branco-azuladas.</p>
                 </div>
             </li>
-            <li>
-                <div>
+            <li class="cartao-pokemon  fundo-3">
+                <div class="nome-card">
                     <h2>Mewtwou</h2>
-                    <p>HP 600</p>
+                    <p>HP 1200</p>
                 </div>
-                <div>
+                <div class="img-cartao">
                     <img class="img-pokeimon" src="src/image/mewtwo.png" alt="Mewtwou">
                 </div>
-                <div>
+                <div class="descricao-card">
                     <h2>Descrição</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat cumque nostrum rerum tempora neque harum, beatae enim sint! Ad, quia. Harum natus consequatur porro repellendus beatae assumenda magni voluptas aliquam?</p>
+                    <p>Mewtwo foi criado geneticamente em um laboratório, sendo um clone do misterioso antigo Pokémon Mew. É uma criatura com uma postura humanóide, mas tem algumas características felinas.</p>
                 </div>
-            </li>
+            </li> -->
         </ul>
 
-        <button>
-            <img class="img-btn-ava" src="src/image/seta.png" alt="seta Avançar">
+        <button class="btn-seta btn-avanca">
+            <img src="src/image/seta.png" alt="seta Avançar">
         </button>
 
     </main>
