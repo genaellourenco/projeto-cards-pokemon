@@ -16,17 +16,21 @@ body{
 }
 
 .titulo{
-    padding: 30px;
+    margin-top: 20px;
+    padding: 15px;
     color: rgb(249, 246, 246);
-    font-size: 38px;
+    font-size: 45px;
+    text-shadow: 6px 6px 0px rgb(0, 0, 0);
+    border-radius: 10px;
 }
 
 .imagem-header{
-    width: 50px;
-    height: 50px;
+    margin-top: 20px;
+    width: 80px;
+    height: 70px;
 }
 
-.pokemon-slider{
+.cartoes-slider{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +38,7 @@ body{
     margin: 30px 0px 60px 0px;
 }
 
-.cartao-pokemon{
+.cartao{
     opacity: 0;
     height: 100%;
     display: flex;
@@ -42,13 +46,18 @@ body{
     justify-content: space-between;
     padding: 12px;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 0px 45px 0px 10px;
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.429);
     transition: opacity 0.3s;
 }
 
+.img-personagem{
+    width: 290px;
+    height: 290px;
+}
+
 .btn-seta{
-    background-color: #ffffff;
+    background-color: #5f5c5c;
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -56,17 +65,17 @@ body{
 }
 
 .btn-seta:hover{
-    background-color: tomato;
+    background-color: rgba(255, 0, 0, 0.829);
     transition: 0.3s;
 }
 
 .btn-seta.btn-voltar{
     transform: rotateY(180deg);
-    box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.429);
+    box-shadow: -2px 4px 8px rgba(251, 6, 6, 0.732);
 }
 
 .btn-seta.btn-avanca{
-    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.429);
+    box-shadow: 2px 4px 8px rgba(251, 6, 6, 0.732);
 }
 
 .img-cartao{
@@ -74,7 +83,6 @@ body{
 
     display: flex;
     justify-content: center;
-    transform: rotateY(180deg);
     max-width: 100%;
     max-height: 280px;
 }
@@ -86,7 +94,7 @@ body{
 }
 
 
-.cartao-pokemon.selecionado{
+.cartao.selecionado{
     opacity: 1;
     z-index: 1;
 }
@@ -94,14 +102,18 @@ body{
 .fundo-1{
     background-image: url(../image/fundo-card-1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .fundo-2{
     background-image: url(../image/fundo-card-2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .fundo-3{
     background-image: url(../image/fundo-card-3.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .nome-card{
@@ -115,8 +127,9 @@ body{
 }
 
 .nome-card > h2{
-    font-size: 28px;
+    font-size: 30px;
     color: white;
+    text-shadow: 4px 4px 0px rgb(0, 0, 0);
 }
 
 .nome-card > p{
@@ -125,6 +138,7 @@ body{
     padding: 6px 10px;
     border-radius: 20px 107px 0px 0px;
     font-size: 20px;
+    
 }
 
 

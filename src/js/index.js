@@ -16,7 +16,7 @@ OBJETIVO 2 - quando clicarmos na seta de voltar temos que mostrar o cartão ante
 
 const btnAvancar = document.getElementById("btn-avanca1");
 const btnVoltar = document.getElementById("btn-voltar1");
-const cartoes = document.querySelectorAll(".cartao-pokemon");
+const cartoes = document.querySelectorAll(".cartao");
 let cartaoAtual = 0;
 
 function esconderCartaoSelecionado() {
