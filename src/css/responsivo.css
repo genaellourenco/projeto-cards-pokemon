@@ -1,5 +1,5 @@
 @media (max-width: 620px) {
-    .pokemon-slider {
+    .cartoes-slider {
         padding: 0 15px;
         gap: 5px;
     }
@@ -17,7 +17,7 @@
         height: 480px;
     }
 
-    .img-pokeimon {
+    .img-personagem {
         max-height: 230px;
     }
 
